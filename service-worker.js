@@ -11,7 +11,14 @@ const casheName = 'version3'
       caches.open(casheName)
           .then(function (cashe) {
               cashe.addAll([
-                  
+                '/my-song-pwa/',
+                '/my-song-pwa/index.html',
+                '/my-song-pwa/css/styles.css',
+                '/my-song-pwa/image/logo.png',
+                '/my-song-pwa/js/scripts.js',
+                '/my-song-pwa/manifest.json',
+                '/my-song-pwa/icons/icon-192x192.png',
+                '/my-song-pwa/icons/icon-512x512.png'
               ]);
           })
   );
